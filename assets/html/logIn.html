@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Hobi</title>
+	<link rel="stylesheet"  href="../CSS/style.css">
+	<link rel="stylesheet"  href="../CSS/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="hobies">
+		<header>
+			<div class="header-bar">
+				<img src="../img/logo-phobie.png"  alt="Logo">		
+				<nav class="menu-btn">
+				 	<a href="logIn.html"><i class="fa fa-user-circle-o" aria-hidden="true" title="Autentificare"></i></a>
+					<a href="SignIn.html"><i class="fa fa-cog" aria-hidden="true" title="Inregistrare/LogOut"></i></a>	
+					<a href="http://google.com"><i class="fa fa-bell-o" aria-hidden="true" title="Alert Atom"></i></a>	 
+				</nav>
+				<nav class="menu">
+					    <ul>
+								<li><a href="../../index.html" class="active">Home</a></li>
+								<li><a href="remedii.html">Remedii</a></li>
+								<li><a href="test.html">Test</a></li>
+								<li><a href="statistics.html">Statistici</a></li>
+						</ul>
+				</nav>
+			</div>
+		</header>
+
+		<div class="sections">
+			<section id="section-carousel">
+				<div class="service-item-1">
+					<div id="carouselExampleControls" class="carousel slide">
+						<div class="carousel-inner" role="listbox">
+									<div class="item active">
+										<div class="backgroud-item red">
+											<h5>Frica</h5>
+										</div>
+									</div>
+									<div class="item">
+										<!-- <img class="d-block img-fluid" src="img/logo-phobie.png" alt="Second slide"> -->
+										<div class="backgroud-item blue"></div>
+									</div>
+									<div class="item">
+									<!-- <img class="d-block img-fluid" src="..." alt="Third slide"> -->
+										<div class="backgroud-item grey"></div>
+									</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">		    
+							<i class="fa fa-chevron-left" aria-hidden="true"></i>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>
+						</a>
+					</div>
+					<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+					<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+					<script src="../js/index.js"></script>
+				</div>
+			</section>
+		
+			 <section id="section-center"> 
+				<div class="login">
+					<h3>Autentificare</h3>
+					<form id="form">
+						<div class="control-group">
+							<input type="text" class="login-field" value="" placeholder="username" id="login-name">
+							<label class="login-field-icon fui-user" for="login-name"></label>
+						</div>
+
+						<div class="control-group">
+							<input type="password" class="login-field" value="" placeholder="password" id="login-pass">
+							<label class="login-field-icon fui-lock" for="login-pass"></label>
+						</div>
+						<a class="btn btn-primary btn-large btn-block" href="#">login</a>
+							<!-- <a class="login-link" href="#">Lost your password?</a> -->
+					</form>
+				</div>
+			</section> 
+
+			<!-- <section id="section-table"></section> -->
+		</div>
+		<footer>	
+			<div class="container">
+				<h3>Echipa:</h3>
+				<h4>Madalina</h4>
+				<h4> Marius</h4>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

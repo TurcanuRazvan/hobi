@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Hobi</title>
+	<link rel="stylesheet"  href="../CSS/style.css">
+	<link rel="stylesheet"  href="../CSS/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="hobies">
+		<header>
+			<div class="header-bar">
+				<img src="../img/logo-phobie.png"  alt="Logo">		
+				<nav class="menu-btn">
+				 	<a href="logIn.html"><i class="fa fa-user-circle-o" aria-hidden="true" title="Autentificare"></i></a>
+					<a href="SignIn.html"><i class="fa fa-cog" aria-hidden="true" title="Inregistrare/LogOut"></i></a>	
+					<a href="http://google.com"><i class="fa fa-bell-o" aria-hidden="true" title="Alert Atom"></i></a>	 
+				</nav>
+				<nav class="menu">
+					    <ul>
+								<li><a href="../../index.html" class="active">Home</a></li>
+								<li><a href="remedii.html">Remedii</a></li>
+								<li><a href="test.html">Test</a></li>
+								<li><a href="statistics.html">Statistici</a></li>
+						</ul>
+				</nav>
+			</div>
+		</header>
+
+		<div class="sections">
+			 <section id="section-signIn"> 
+				<div id="signIn">
+					<h3>Formular de Inregistrare</h3>
+					<div class="msj">
+							<p class="msj-p">
+								Dacă ai deja cont pe acest site ,te rugam acceseaza sectiunea de <b>Autentificare</b>
+									(folosind e-mailul și parola acelui cont).
+							</p>
+							<p class="msj-p">
+								Daca nu esti deja membru, completeaza datele de mai jos si salveaza-le, apasand butonul <b>Finalizare inregistrare.</b>
+							</p>
+					</div>
+					<form id="form-signIn">
+						<div class="control-group-signIn">
+							    <label for="name">Nume:</label>
+    							<input type="text" id="name" name="user_name"  placeholder="Nume">
+						</div>
+						<div class="control-group-signIn">
+							<label for="prename">Prenume:</label>
+    						<input type="text" id="prename" name="user_prename"  placeholder="Prenume">
+						</div>
+
+						<div class="control-group-signIn">
+							<label>Data nastere:</label>
+   						    <input type="text" id="data_nastere" name="data_n">  <!--type="date"-->
+						</div>
+						<div class="control-group-signIn">
+							<label for="mail">E-mail:</label>
+    						<input type="email" id="mail" name="user_email" placeholder="username@gmail.com">
+						</div>
+						<div class="control-group-signIn">
+							<label>Fobiile:</label>
+    						<select name="fobii"> 
+								<option>Caini/pisici</option> 
+								<option>Intuneric</option> 
+								<option>Avion</option> 
+								<option>Paianjeni</option> 
+								<option>Lift</option> 
+								<option>Doctor</option>
+							</select>
+						</div>
+						<div class="control-group-signIn">
+							<label class="signIn-field-icon fui-lock" for="signIn-pass">Parola:</label>
+							<input type="password" class="signIn-field" value="" placeholder="password" id="signIn-pass">
+						</div>
+						<div class="control-group-signIn">
+							<label class="signIn-field-icon fui-lock" for="signIn-pass">Confirm Parola:</label>
+							<input type="password" class="signIn-field" value="" placeholder="password" id="signIn-pass-confirm">
+						</div>	
+
+						<a class="btn btn-primary btn-large btn-block" href="#">Finalizare inregistrare</a>
+					</form>
+				</div>
+			</section> 	
+		</div>
+		<footer>	
+			<div class="container">
+				<h3>Echipa:</h3>
+				<h4>Madalina</h4>
+				<h4>Marius</h4>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

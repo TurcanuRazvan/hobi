@@ -1,0 +1,322 @@
+body {
+    padding: 0;
+    margin: 0;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: url('../res/doiul.jpg');
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-size: 18px;
+    color: #62a29e;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+h2 {
+    font-size: 16px;
+    color: #62a29e;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+h3 {
+    font-size: 14px;
+    color: #62a29e;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+h4 {
+    font-size: 16px;
+    color: #62a29e;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ffffff;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+h5 {
+    font-size: 14px;
+    color: #62a29e;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ffffff;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+p {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 20px;
+}
+
+hr {
+    border-color: #ffffff;
+}
+
+button:focus {
+    outline: 0;
+}
+
+
+
+.navbar {
+    display: block;
+    width: 100%;
+    border-bottom: 4px double #00121a;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+.navbar .logo {
+    display: inline-block;
+    padding: 15px 10px;
+    font-family: "Calibri Light";
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.navbar .menu {
+    display: inline-block;
+    float: right;
+    padding: 25px 0;
+    margin: 0;
+}
+
+.navbar .menu li {
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar .menu li a {
+    padding: 5px 10px;
+	color: #ffffff;
+	background-color: #62a29e;
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+	border-radius: 4px;
+}
+
+.navbar .menu li a:hover {
+    background-color: #ffffff;
+    color: #62a29e;
+    border-radius: 4px;
+}
+
+.content {
+    display: block;
+    width: 100%;
+    min-height: 600px;
+    padding: 15px 0;
+    /*background-color: #D3D3D3;*/
+    border-bottom: 2px solid #00121a;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.content .page {
+    padding: 15px 20px;
+}
+
+.content .page .not-logged {
+    display: block;
+    padding: 10px 0;
+    margin: 15px 0;
+    background-color: #ff9520;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.content .page .exercises,
+.content .page .recommendations {
+    display: block;
+    text-align: center;
+}
+
+.content .page .exercises li,
+.content .page .recommendations li {
+    display: block;
+    margin: 10px 0;
+    list-style: none;
+}
+
+.content .page .exercises li a,
+.content .page .recommendations li a {
+    color: #ff9520;
+    text-decoration: none;
+}
+
+.content .page .exercises li a:visited,
+.content .page .recommendations li a:visited {
+    color: #ff9520;
+    text-decoration: none;
+}
+
+.content .page .about a {
+    color: #ff9520;
+    text-decoration: none;
+}
+
+.content .page .about a:visited {
+    color: #ff9520;
+    text-decoration: none;
+}
+
+.content .controls {
+    text-align: center;
+}
+
+.content .controls button {
+    margin: 0 5px;
+    font-size: 10px;
+    padding: 5px 25px;
+    background-color: #ffffff;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.2s ease-in;
+}
+
+.content .controls button:hover {
+    cursor: pointer;
+    background-color: #ff9520;
+    color: #00121a;
+}
+
+.content .page .test .submit {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.content .page .test .submit .loader {
+    display: block;
+    width: 20px;
+    margin: 15px auto;
+}
+
+.content .page .test .submit .loader img {
+    width: 100%;
+}
+
+.content .page .test .submit .send-status {
+    display: block;
+    margin: 15px 0;
+    text-align: center;
+    color: #ff9520;
+    letter-spacing: 1px;
+}
+
+.content .page .test .submit button[type="submit"] {
+    padding: 5px 25px;
+    background-color: #ffffff;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.2s ease-in;
+}
+
+.content .page .test .submit button[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #ff9520;
+    color: #00121a;
+}
+
+.content .page .test .question {
+    display: block;
+    margin: 15px 0 5px 0;
+    color: #ffffff;
+    padding: 5px 10px;
+    background-color: rgba(253, 255, 244, 0.05);
+}
+
+.content .page .test .answer,
+.content .page .test .answer-multiple {
+    display: block;
+    padding-left: 25px;
+    color: #ffffff;
+    background-color: rgba(70, 77, 255, 0.05);
+}
+
+.content .page .test .answer input,
+.content .page .test .answer-multiple input {
+    position: relative;
+    top: 2px;
+    margin-bottom: 10px;
+}
+
+.content .page .test .answer label:hover,
+.content .page .test .answer-multiple label:hover,
+.content .page .test .answer input:hover,
+.content .page .test .answer-multiple input:hover {
+    cursor: pointer;
+}
+
+
+.content .page .statististics {
+    display: block;
+}
+
+.content .page .statististics .headline {
+    display: block;
+    color: #00121a;
+    background-color: #ff9520;
+    padding: 5px 10px;
+}
+
+.content .page .statististics .stat {
+    display: block;
+	width: 100%;
+    margin: 15px 0;
+    padding: 5px 0;
+    background-color: #414747;
+}
+
+.content .page .statististics .stat .name,
+.content .page .statististics .stat .value {
+    display: block;
+}
+
+.content .page .statististics .stat .name {
+    color: #ff9520;
+    padding-left: 25px;
+}
+
+.content .page .statististics .stat .value {
+    margin: 5px 0 10px;
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+.content .page .statististics .stat .value span {
+    color: #000;
+    font-size: 12px;
+    background-color: #ff9520;
+    border-radius: 5px;
+    padding: 1px 3px;
+    margin-left: 5px;
+}
+
+.footer {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    text-align: center;
+    color: #00121a;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:visited {
+    text-decoration: none;
+}
+

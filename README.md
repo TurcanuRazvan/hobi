@@ -1,9 +1,10 @@
-## HobiWeb
-<<<<<<< HEAD
+# HobiWeb
+Aplicatii Web cu rol de asistent medical in ceea ce priveste fobia sau fobiile unui utilizator. 
+Sistemul va oferi diverse remedii (medicatii, exercitii fizice/mentale, jocuri , resurse Web utile) pentru a preveni si/sau trata fobiile unei persoane. 
+Cu ajutorul aplicatiei poti descoperi statistici cu cele mai comune fobii si poti parcurge chiar si un test.
 
-
-##Contribuitori
-T. R. F. Marius 
-F. A. Madalina
-=======
->>>>>>> fad319ca2d5aa29c37d7b9af60b70355b70ed919
+## Echipa
+T. Razvan , 
+F. Madalina
+>
+>Tehnologii Web (Facultatea de Informatica Iasi) 

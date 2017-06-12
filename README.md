@@ -12,6 +12,8 @@ Acestea apar cu verde in meniul aplicatiei XAMPP atunci cand procesele sunt in d
 >4. se muta proiectul in htdocs din XAMPP
 >3. Odata urmati pasii de mai sus, aplicatia se poate rula la adresa http://localhost/HobiWeb/
 
+> - Film demonstrativ aplicatie https://vimeo.com/221308766
+
 ## Echipa
 T. Razvan , 
 F. Madalina

@@ -1,4 +1,8 @@
-
+<?php
+	include "./lib/config.php";
+	include "./lib/session.php";
+	include "./lib/functions.php";
+?>
 
 <!DOCTYPE HTML>
 <html lang="ro">

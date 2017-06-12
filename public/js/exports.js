@@ -37,7 +37,7 @@ document.getElementById("download-statistics-csv").addEventListener("click", fun
 			var row = [data[i].name, data[i].value];
 			csvRows.push(row);
 		}
-		console.log(csvRows);
+		//console.log(csvRows);
 		var downloadData = "data:attachment/csv;charset=utf-8," + csvRows.join("%0A");
 		var a = document.body.appendChild(
 			document.createElement("a")

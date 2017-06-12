@@ -6,7 +6,7 @@
 			$password = strip_tags($_POST['password']);
 			
 			$query = $connection->prepare('SELECT firstName, lastName, phobia, email FROM users WHERE email = ? AND password = ? LIMIT 1');
-			$query->bind_param('ss', $email, $password);
+			$query->bind_param('ss', $email, $password); //previn sql injection
 			$query->execute();
 			$result = $query->get_result();
 			

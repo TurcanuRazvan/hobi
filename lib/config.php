@@ -1,9 +1,9 @@
 <?php
 	// Configuration File
-	ob_start();
+	ob_start(); //output buffering
 	
 	// Connection data
-	$server = "localhost";
+	$server = "localhost"; // localhost
 	$username = "root";
 	$password = "";
 	$database = "hobiweb";

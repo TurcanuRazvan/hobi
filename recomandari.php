@@ -1,4 +1,10 @@
-﻿<!DOCTYPE HTML>
+<?php
+	include "./lib/config.php";
+	include "./lib/session.php";
+	include "./lib/functions.php";
+?>
+
+<!DOCTYPE HTML>
 <html lang="ro">
     <?php include('./lib/components/meta.php') ?>
 

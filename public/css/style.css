@@ -56,7 +56,111 @@ button:focus {
     outline: 0;
 }
 
+.hidden {
+    display: none !important;
+}
 
+.form-box {
+    display: block;
+}
+
+.form-box fieldset {
+    padding: 15px;
+    border-style: dashed;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-box fieldset label {
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.form-box fieldset input {
+    width: 100%;
+    max-width: 300px;
+    padding: 5px 0 5px 10px;
+    margin: 5px auto 15px auto;
+    border: 1px solid #00121a;
+    border-radius: 20px;
+}
+
+.form-box fieldset input:focus {
+    outline: 0;
+    letter-spacing: 0.5px;
+    border: 1px solid #ff9520;
+}
+
+.form-box footer {
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.form-box footer input[type="submit"] {
+    padding: 5px 25px;
+    background-color: #ffffff;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.2s ease-in;
+}
+
+.form-box footer input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #ff9520;
+    color: grey;
+}
+
+.notification {
+    display: none;
+    padding: 10px 0;
+    margin: 15px 0;
+    background-color: #ff9520;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.notification.display {
+	display: block;
+}
+
+.presentation {
+    display: block;
+    opacity: 0.8;
+    margin: 15px 0;
+    padding: 15px 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-right: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+}
+
+.presentation img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: auto;
+    border: 4px double #ffffff;
+    border-radius: 5px;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
 
 .navbar {
     display: block;
@@ -309,7 +413,7 @@ button:focus {
     width: 100%;
     margin: 15px 0;
     text-align: center;
-    color: #00121a;
+    color: #ffffff;
 }
 
 .footer a {
@@ -320,3 +424,91 @@ button:focus {
     text-decoration: none;
 }
 
+@media screen and (max-width: 991px) {
+    h1 {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .navbar .logo {
+        font-size: 16px;
+    }
+
+    .navbar .menu {
+        padding: 17px 0;
+    }
+
+    .navbar .menu li a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .presentation img {
+        width: 90%;
+    }
+
+    .navbar .logo {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar .menu {
+        display: block;
+        float: none;
+    }
+
+    .navbar .menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar .menu li a {
+        display: block;
+        width: 100%;
+    }
+
+    .container {
+        margin: 0 20px;
+    }
+
+    .content .page .statististics .stat .name {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .content .page .statististics .stat .value {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .content .controls button {
+        display: block;
+        margin: 25px auto;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+}
